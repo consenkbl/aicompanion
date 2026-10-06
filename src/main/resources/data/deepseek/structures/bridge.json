@@ -1,0 +1,15 @@
+{
+  "name": "小桥",
+  "desc": "3x7 栏杆木桥，中央挂灯笼（架在沟渠或河两岸之间）",
+  "tags": ["桥", "木桥", "小桥", "吊桥"],
+  "palette": {
+    "P": "minecraft:oak_planks",
+    "F": "minecraft:oak_fence",
+    "L": "minecraft:lantern"
+  },
+  "rows": [
+    ["PPP", "PPP", "PPP", "PPP", "PPP", "PPP", "PPP"],
+    ["F.F", "F.F", "F.F", "F.F", "F.F", "F.F", "F.F"],
+    ["...", "...", "...", ".L.", "...", "...", "..."]
+  ]
+}

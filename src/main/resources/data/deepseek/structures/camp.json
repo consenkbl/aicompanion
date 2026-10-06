@@ -1,0 +1,23 @@
+{
+  "name": "篝火营地",
+  "palette": {
+    "O": "minecraft:coarse_dirt",
+    "C": "minecraft:campfire",
+    "H": "minecraft:hay_block"
+  },
+  "rows": [
+    [
+      "OHOHO",
+      "O...O",
+      "O.C.O",
+      "O...O",
+      "OOOOO"
+    ]
+  ],
+  "tags": [
+    "篝火",
+    "营地",
+    "露营"
+  ],
+  "desc": "5x5 篝火营地：粗泥地、干草垛和篝火"
+}

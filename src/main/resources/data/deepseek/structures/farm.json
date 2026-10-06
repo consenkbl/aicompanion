@@ -1,0 +1,16 @@
+{
+  "name": "农田",
+  "desc": "9x9 麦田：原木围栏、耕地、中央水渠，麦子种下后慢慢长大",
+  "tags": ["农田", "农场", "菜地", "耕地", "麦田", "田"],
+  "palette": {
+    "L": "minecraft:oak_log",
+    "F": "minecraft:farmland",
+    "W": "minecraft:water",
+    "C": "minecraft:wheat",
+    "H": "minecraft:hay_block"
+  },
+  "rows": [
+    ["LLLLLLLLL", "LFFFFFFFL", "LFFFFFFFL", "LFFFFFFFL", "LFFFWFFFL", "LFFFFFFFL", "LFFFFFFFL", "LFFFFFFFL", "LLLLLLLLL"],
+    ["H.......H", ".CCCCCCC.", ".CCCCCCC.", ".CCCCCCC.", ".CCC.CCC.", ".CCCCCCC.", ".CCCCCCC.", ".CCCCCCC.", "H.......H"]
+  ]
+}

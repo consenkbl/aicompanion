@@ -1,0 +1,21 @@
+{
+  "name": "教堂",
+  "desc": "7x7 石砖小教堂，尖顶玻璃花窗",
+  "tags": ["教堂", "礼拜堂"],
+  "palette": {
+    "S": "minecraft:stone_bricks",
+    "G": "minecraft:glass_pane",
+    "L": "minecraft:lantern"
+  },
+  "rows": [
+    ["SSSSSSS", "SSSSSSS", "SSSSSSS", "SSSSSSS", "SSSSSSS", "SSSSSSS", "SSSSSSS"],
+    ["SSS.SSS", "SS...SS", "SG...GS", "SS...SS", "SG...GS", "SS...SS", "SSSSSSS"],
+    ["SSS.SSS", "SS...SS", "SG...GS", "SS...SS", "SG...GS", "SS...SS", "SSSSSSS"],
+    ["SSS.SSS", "SS...SS", "SG...GS", "SS...SS", "SG...GS", "SS...SS", "SSSSSSS"],
+    ["SSS.SSS", "SS...SS", "SG...GS", "SS..LSS", "SG...GS", "SS...SS", "SSSSSSS"],
+    ["SSS.SSS", "SS...SS", "SS...SS", "SS...SS", "SS...SS", "SS...SS", "SSSSSSS"],
+    ["SSS.SSS", "SS...SS", "SS...SS", "SS...SS", "SS...SS", "SS...SS", "SSSSSSS"],
+    [".......", ".SSSSS.", ".SSSSS.", ".SSSSS.", ".SSSSS.", ".SSSSS.", "......."],
+    [".......", ".......", "..SSS..", "..SLS..", "..SSS..", ".......", "......."]
+  ]
+}

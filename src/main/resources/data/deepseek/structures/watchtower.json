@@ -1,0 +1,74 @@
+{
+  "name": "瞭望塔",
+  "palette": {
+    "F": "minecraft:cobblestone",
+    "P": "minecraft:oak_planks",
+    "N": "minecraft:cobblestone_wall"
+  },
+  "rows": [
+    [
+      "FFFFF",
+      "FFFFF",
+      "FFFFF",
+      "FFFFF",
+      "FFFFF"
+    ],
+    [
+      "F...F",
+      "F...F",
+      "F...F",
+      "F...F",
+      "FFFFF"
+    ],
+    [
+      "F...F",
+      "F...F",
+      "F...F",
+      "F...F",
+      "FFFFF"
+    ],
+    [
+      "F...F",
+      "F...F",
+      "F...F",
+      "F...F",
+      "FFFFF"
+    ],
+    [
+      "F...F",
+      "F...F",
+      "F...F",
+      "F...F",
+      "FFFFF"
+    ],
+    [
+      "F...F",
+      "F...F",
+      "F...F",
+      "F...F",
+      "FFFFF"
+    ],
+    [
+      "PPPPP",
+      "PPPPP",
+      "PPPPP",
+      "PPPPP",
+      "PPPPP"
+    ],
+    [
+      "NNNNN",
+      "N...N",
+      "N...N",
+      "N...N",
+      "NNNNN"
+    ]
+  ],
+  "tags": [
+    "瞭望塔",
+    "箭塔",
+    "哨塔",
+    "了望塔",
+    "高塔"
+  ],
+  "desc": "5x5 圆石瞭望塔，顶部木平台加围栏"
+}

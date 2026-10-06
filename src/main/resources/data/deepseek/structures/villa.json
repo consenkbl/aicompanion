@@ -1,0 +1,21 @@
+{
+  "name": "别墅",
+  "desc": "7x7 两层白色混凝土别墅，玻璃窗，平顶露台",
+  "tags": ["别墅", "洋房", "大房子", "住宅", "villa"],
+  "palette": {
+    "L": "minecraft:oak_log",
+    "W": "minecraft:white_concrete",
+    "G": "minecraft:glass_pane",
+    "P": "minecraft:spruce_planks"
+  },
+  "rows": [
+    ["PPPPPPP", "PPPPPPP", "PPPPPPP", "PPPPPPP", "PPPPPPP", "PPPPPPP", "PPPPPPP"],
+    ["LWW.WWL", "LWW.WWL", "LWW.WWL", "LWW.WWL", "LWW.WWL", "LWW.WWL", "LWWWWWL"],
+    ["LWG.GWL", "LG...GL", "LG...GL", "LG...GL", "LG...GL", "LG...GL", "LWWWWWL"],
+    ["PPPPPPP", "PPPPPPP", "PPPPPPP", "PPPPPPP", "PPPPPPP", "PPPPPPP", "PPPPPPP"],
+    ["LWGGGWL", "LGG.GGL", "LGG.GGL", "LGG.GGL", "LGG.GGL", "LGG.GGL", "LWWWWWL"],
+    ["LWG.GWL", "LG...GL", "LG...GL", "LG...GL", "LG...GL", "LG...GL", "LWWWWWL"],
+    ["PPPPPPP", "PPPPPPP", "PPPPPPP", "PPPPPPP", "PPPPPPP", "PPPPPPP", "PPPPPPP"],
+    [".......", "..PPP..", "..PPP..", "..PPP..", "..PPP..", "..PPP..", "......."]
+  ]
+}

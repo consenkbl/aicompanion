@@ -1,0 +1,7 @@
+{
+  "entity.deepseek.companion": "DeepSeek",
+  "item.deepseek.companion_spawn_egg": "DeepSeek 生成蛋",
+  "item.deepseek.building_torch": "建筑定位火把",
+  "item.deepseek.poke_ball": "精灵球",
+  "item.deepseek.poke_ball.filled": "精灵球（DeepSeek 在里面）"
+}

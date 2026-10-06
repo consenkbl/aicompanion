@@ -1,0 +1,20 @@
+{
+  "name": "酒馆",
+  "desc": "7x7 云杉木小酒馆，里面带木桶和灯笼",
+  "tags": ["酒馆", "旅店", "客栈", "酒吧"],
+  "palette": {
+    "S": "minecraft:spruce_planks",
+    "L": "minecraft:oak_log",
+    "G": "minecraft:glass_pane",
+    "B": "minecraft:barrel",
+    "N": "minecraft:lantern"
+  },
+  "rows": [
+    ["SSSSSSS", "SSSSSSS", "SSSSSSS", "SSSSSSS", "SSSSSSS", "SSSSSSS", "SSSSSSS"],
+    ["SSS.SSS", "SB...BS", "S.....S", "S.....S", "S.....S", "S.....S", "SSSSSSS"],
+    ["SSS.SSS", "S.....S", "SG...GS", "S.....S", "SG...GS", "S.....S", "SSSSSSS"],
+    ["SSS.SSS", "S.....S", "S.....S", "S..N..S", "S.....S", "S.....S", "SSSSSSS"],
+    ["SSSSSSS", "SSSSSSS", "SSSSSSS", "SSSSSSS", "SSSSSSS", "SSSSSSS", "SSSSSSS"],
+    ["LLLLLLL", "LLLLLLL", "LLLLLLL", "LLLLLLL", "LLLLLLL", "LLLLLLL", "LLLLLLL"]
+  ]
+}

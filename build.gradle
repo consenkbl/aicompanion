@@ -1,0 +1,51 @@
+apply plugin: 'net.minecraftforge.gradle'
+apply plugin: 'eclipse'
+
+version = '0.1.0'
+group = 'dev.elena.deepseek'
+
+java {
+    archivesBaseName = 'deepseek'
+    toolchain { languageVersion = JavaLanguageVersion.of(17) }
+}
+
+minecraft {
+    mappings channel: 'official', version: '1.19.2'
+
+    runs {
+        client {
+            workingDirectory project.file('run')
+            property 'forge.logging.console.level', 'info'
+            mods { deepseek { source sourceSets.main } }
+        }
+        server {
+            workingDirectory project.file('run')
+            property 'forge.logging.console.level', 'info'
+            mods { deepseek { source sourceSets.main } }
+        }
+    }
+}
+
+dependencies {
+    minecraft 'net.minecraftforge:forge:1.19.2-43.3.8'
+    // Jade API（仅编译期用：详细信息框的黄色爱心插件，运行时由玩家环境中的 Jade 提供）
+    compileOnly files('libs/Jade-1.19.1-forge-8.9.2.jar')
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
+
+jar {
+    manifest {
+        attributes([
+                'Specification-Title'   : 'deepseek',
+                'Specification-Vendor'  : 'Elena',
+                'Specification-Version' : '1',
+                'Implementation-Title'  : project.name,
+                'Implementation-Version': project.version,
+                'Implementation-Vendor' : 'Elena'
+        ])
+    }
+    finalizedBy 'reobfJar'
+}

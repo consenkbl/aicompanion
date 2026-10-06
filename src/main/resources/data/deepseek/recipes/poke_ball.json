@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " I ",
+    "IRI",
+    "SSS"
+  ],
+  "key": {
+    "I": { "item": "minecraft:iron_ingot" },
+    "R": { "item": "minecraft:redstone" },
+    "S": { "item": "minecraft:stone" }
+  },
+  "result": { "item": "deepseek:poke_ball", "count": 1 }
+}

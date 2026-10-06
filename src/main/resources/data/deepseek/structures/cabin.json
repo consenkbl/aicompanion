@@ -1,0 +1,60 @@
+{
+  "name": "小木屋",
+  "palette": {
+    "L": "minecraft:oak_log",
+    "P": "minecraft:oak_planks",
+    "G": "minecraft:glass_pane"
+  },
+  "rows": [
+    [
+      "PPPPP",
+      "PPPPP",
+      "PPPPP",
+      "PPPPP",
+      "PPPPP"
+    ],
+    [
+      "LP.PL",
+      "P...P",
+      "P...P",
+      "P...P",
+      "LPPPL"
+    ],
+    [
+      "LP.PL",
+      "P...P",
+      "G...G",
+      "P...P",
+      "LPGPL"
+    ],
+    [
+      "PPPPP",
+      "PPPPP",
+      "PPPPP",
+      "PPPPP",
+      "PPPPP"
+    ],
+    [
+      ".....",
+      ".PPP.",
+      ".PPP.",
+      ".PPP.",
+      "....."
+    ],
+    [
+      ".....",
+      ".....",
+      "..P..",
+      "..P..",
+      "....."
+    ]
+  ],
+  "tags": [
+    "小木屋",
+    "木屋",
+    "房子",
+    "小房子",
+    "家"
+  ],
+  "desc": "7x7 原木小屋，带门、窗和玻璃"
+}

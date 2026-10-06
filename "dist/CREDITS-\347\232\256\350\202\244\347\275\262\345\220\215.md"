@@ -1,0 +1,20 @@
+# 皮肤署名 / Attribution
+
+## luna.png（鲸鱼娘皮肤）
+
+本皮肤的**配色**参考了「鲸鱼娘」角色的公开立绘实测取色（深蓝紫 #4C578B 系 + 白 #F0F0F0 系），
+皮肤本身为参照配色独立创作的像素画（生成脚本：`tools/gen_skin_whale.py`），未复制原画内容。
+
+### 鲸鱼娘角色归属
+- **角色原画（一创）**：上善（Pixiv / Bilibili：**上善无形**）
+- **DeepSeek 元素二次设计（二创）**：zipzip（Pixiv / Bilibili：**ZipZipPipe**）
+- **授权**：原作者公开声明允许**非商业**二次创作（需保留署名）
+- 立绘参考来源：github.com/miku00039-01/dsh-whale-pet（`assets/whale.png`，该素材不随 MIT 代码分发，单独遵循原作者条款）
+
+### 使用范围
+- ✔ 个人使用、和朋友的联机服务器使用
+- ✘ 任何商业用途（需先取得上善无形授权）
+
+## 其他
+- 皮肤生成脚本（含调色板注释）：`tools/gen_skin_whale.py`
+- 旧版紫色皮肤可随时用 `tools/gen_skin.py` 重新生成

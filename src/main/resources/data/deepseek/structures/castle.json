@@ -1,0 +1,20 @@
+{
+  "name": "城堡",
+  "desc": "9x9 石砖城堡：四角塔柱、城墙垛口、拱门，中世纪风格",
+  "tags": ["城堡", "堡垒", "要塞", "中世纪", "王宫"],
+  "palette": {
+    "S": "minecraft:stone_bricks",
+    "G": "minecraft:glass_pane",
+    "Q": "minecraft:chiseled_stone_bricks"
+  },
+  "rows": [
+    ["SSSSSSSSS", "SSSSSSSSS", "SSSSSSSSS", "SSSSSSSSS", "SSSSSSSSS", "SSSSSSSSS", "SSSSSSSSS", "SSSSSSSSS", "SSSSSSSSS"],
+    ["SSS.SSSSS", "S.......S", "S.......S", "S.......S", "S.......S", "S.......S", "S.......S", "S.......S", "SSSSSSSSS"],
+    ["SSS.SSSSS", "S.......S", "SG.....GS", "S.......S", "S.......S", "S.......S", "SG.....GS", "S.......S", "SSSSSSSSS"],
+    ["SSS.SSSSS", "S.......S", "S.......S", "S.......S", "S.......S", "S.......S", "S.......S", "S.......S", "SSSSSSSSS"],
+    ["SSS.SSSSS", "S.......S", "SG.....GS", "S.......S", "S.......S", "S.......S", "SG.....GS", "S.......S", "SSSSSSSSS"],
+    ["S.S.S.S.S", "S.......S", "S.......S", "S.......S", "S.......S", "S.......S", "S.......S", "S.......S", "S.S.S.S.S"],
+    ["QQ.....QQ", "Q.......Q", "Q.......Q", ".........", ".........", ".........", "Q.......Q", "Q.......Q", "QQ.....QQ"],
+    ["Q.Q...Q.Q", ".........", ".........", ".........", ".........", ".........", ".........", ".........", "Q.Q...Q.Q"]
+  ]
+}

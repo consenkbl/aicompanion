@@ -1,0 +1,26 @@
+{
+  "name": "灯塔",
+  "desc": "5x5 红白条纹灯塔，高 12 格，顶上有灯笼",
+  "tags": ["灯塔", "灯", "信号塔"],
+  "palette": {
+    "W": "minecraft:white_concrete",
+    "R": "minecraft:red_terracotta",
+    "G": "minecraft:glass",
+    "F": "minecraft:oak_fence",
+    "L": "minecraft:lantern"
+  },
+  "rows": [
+    ["WWWWW", "WWWWW", "WWWWW", "WWWWW", "WWWWW"],
+    ["WWWWW", "WWWWW", "WWWWW", "WWWWW", "WWWWW"],
+    ["RRRRR", "RRRRR", "RRRRR", "RRRRR", "RRRRR"],
+    ["WWWWW", "WWWWW", "WWWWW", "WWWWW", "WWWWW"],
+    ["WWWWW", "WWWWW", "WWWWW", "WWWWW", "WWWWW"],
+    ["RRRRR", "RRRRR", "RRRRR", "RRRRR", "RRRRR"],
+    ["WWWWW", "WWWWW", "WWWWW", "WWWWW", "WWWWW"],
+    ["WWWWW", "WWWWW", "WWWWW", "WWWWW", "WWWWW"],
+    ["RRRRR", "RRRRR", "RRRRR", "RRRRR", "RRRRR"],
+    [".GGG.", ".GGG.", ".GGG.", ".GGG.", ".GGG."],
+    [".WWW.", ".WWW.", ".WWW.", ".WWW.", ".WWW."],
+    [".F.F.", ".F.F.", ".FLF.", ".F.F.", ".F.F."]
+  ]
+}

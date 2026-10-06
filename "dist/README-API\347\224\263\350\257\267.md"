@@ -1,0 +1,16 @@
+# 智谱 API Key 申请步骤（图解版）
+
+1. 浏览器打开 https://open.bigmodel.cn
+2. 手机号/微信登录
+3. 登录后进「控制台」（右上角头像旁边）
+4. 左侧找「API Keys」（或访问 https://open.bigmodel.cn/usercenter/apikeys ）
+5. 点「新建 API Key」，随便起个名字，复制生成的 key（一长串字母数字点号）
+6. 分别打开：
+   - 客户端整合包目录下的 `config\deepseek-common.toml`
+   - 服务端 `D:\MC\server\No Flesh Within Chest 1.0.2-DIM-server\config\deepseek-common.toml`
+   （config 文件夹在第一次启动后会自动生成）
+7. 找到这一行：apiKey = ""
+   改成：  apiKey = "刚才复制的那串"   （引号要保留）
+8. 保存文件，重启客户端和服务端
+
+提示：glm-4-flash 模型免费；如果日志里报 401 说明 key 不对，报 429 说明请求太频繁（正常聊天不会）。

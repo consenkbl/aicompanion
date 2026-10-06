@@ -1,0 +1,17 @@
+{
+  "name": "水井",
+  "desc": "3x3 石头水井，带栅栏支柱和石板顶",
+  "tags": ["水井", "井"],
+  "palette": {
+    "C": "minecraft:cobblestone",
+    "W": "minecraft:water",
+    "F": "minecraft:oak_fence",
+    "S": "minecraft:smooth_stone_slab"
+  },
+  "rows": [
+    ["CCC", "CWC", "CCC"],
+    ["F.F", "...", "F.F"],
+    ["F.F", "...", "F.F"],
+    ["SSS", "SSS", "SSS"]
+  ]
+}

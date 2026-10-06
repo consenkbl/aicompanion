@@ -1,0 +1,23 @@
+# Gradle / ForgeGradle
+.gradle/
+build/
+runs/
+
+# 运行时数据（服务器存档、日志）
+run/
+server_run.log
+*.log
+
+# IDE
+.classpath
+.project
+.settings/
+.idea/
+*.iml
+.vscode/
+
+# 构建产物（发 Release 用，不入库）
+dist/*.jar
+
+# 本地调试残留
+tools/tmp_check/
